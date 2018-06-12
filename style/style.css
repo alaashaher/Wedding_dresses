@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden; 
+}
+img:hover {
+    transform: rotateY( 360deg );
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.carousel-inner {
+    overflow: visible;
+}
+/* header start */
+header {
+    height: 960px;
+    width: 100%;
+    background-image: url("../image/header_image.png");
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(107, 128, 169) !important;
+}
+.navbar-nav li {
+    margin-left: 2%;
+    width: 200px;
+    font-weight: 500 !important;
+}
+.navbar-nav li a:hover {
+    text-decoration: underline;
+    font-weight: bold !important;
+    color: rgb(54, 46, 89) !important;
+}
+.navbar-brand {
+    margin-left: 2%;
+}
+.navbar-collapse {
+    margin-left: 5%;
+}
+/* header end */
