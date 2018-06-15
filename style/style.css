@@ -1,21 +1,20 @@
 body {
     overflow-x: hidden; 
 }
-img:hover {
+/* img:hover {
     transform: rotateY( 360deg );
     -webkit-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
     transition-duration: 1s;
-}
+} */
 .carousel-inner {
     overflow: visible;
 }
 /* header start */
 header {
-    height: 960px;
+    height: 600px;
     width: 100%;
-    background-image: url("../image/header_image.png");
 }
 .navbar {
     width: 100%;
@@ -36,5 +35,28 @@ header {
 }
 .navbar-collapse {
     margin-left: 5%;
+}
+.carousel-caption p {
+    color: rgb(3, 22, 56);
+    font-size: 14px;
+}
+.carousel-caption {
+    padding-bottom: 150px;
+}
+.welcome {
+    font-size: 25px !important; 
+}
+.header_descraption {
+    padding-bottom: 150px;
+}
+.header_opation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.header_opation ul li a {
+    color: rgb(83, 35, 131);
+}
+.header_opation ul li a:hover {
+    color: rgb(16, 9, 143);
 }
 /* header end */
