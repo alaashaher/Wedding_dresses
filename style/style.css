@@ -21,7 +21,7 @@ header {
     background-color: rgb(107, 128, 169) !important;
 }
 .navbar-nav li {
-    margin-left: -2%;
+    margin-left: 0%;
     width: 200px;
     font-weight: 500 !important;
 }
@@ -327,7 +327,7 @@ ul.simplefilter {
 	background-color: #3d0b3f;
     color: #f4edf7;
     width: 150px;
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 20px;
 	border-radius: 20px;
 	animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -338,7 +338,6 @@ ul.simplefilter {
 	background-color: #f4edf7;
 	color: #3d0b3f;
 }
-
 /* gallery end */
 
 
