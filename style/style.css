@@ -32,6 +32,9 @@ header {
 }
 .navbar-brand {
     margin-left: 2%;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #3326aa !important;
 }
 .navbar-collapse {
     margin-left: 5%;
@@ -103,7 +106,7 @@ header {
 }
 /* what new end */
 
-/* gallery start */
+/* dress gallery start */
 #dress_gallery {
     margin-top: 50px;
 }
@@ -336,17 +339,61 @@ ul.simplefilter {
 .veiw-more:hover {
 	border: none;
 	background-color: #f4edf7;
-	color: #3d0b3f;
+    color: #3d0b3f;    
 }
-/* gallery end */
+/* dress gallery end */
 
+/* ACCESSORIES start */
+#accessoires {
+    margin-top: 50px;
+}
+/* ACCESSORIES end */
 
-
-
-
-
-
-
-
-
-
+/* About start */ 
+#about {
+    margin-top: 80px;
+}
+.footer_cloumn_title {
+    color:  #3d0b3f;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: left;
+}
+.footer_cloumn_dec {
+    color: rgb(65, 63, 63);
+    font-size: 12px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -34px;
+}
+footer ul li {
+    padding-top: 10px;
+}
+footer ul li a {
+    color: rgb(65, 63, 63);
+    
+}
+.footer_cloumn_dec .email {
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgb(190, 195, 199);
+    border-color: rgb(50, 51, 51);
+    color: rgb(50, 51, 51);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer-mail:hover {
+    cursor: pointer;
+}
+.footer_icon {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+footer .carousel-item img {
+    margin-top: 70px;
+    height: 260px;
+}
