@@ -145,6 +145,7 @@ figure.w3ls-gallery {
 figure img {
     height: 300px;
     width: 300px;
+    
 }
 figure.w3ls-gallery:hover figcaption.w3layouts-caption {
     -ms-filter: alpha(Opacity=100);
@@ -353,11 +354,28 @@ ul.simplefilter {
 #about {
     margin-top: 80px;
 }
+#about .section_descriaption {
+    padding-bottom: 100px;
+}
+.footer_body_firfox {
+    width: 130%;
+    margin-left: 120px;
+    margin-top: -280px;
+}
+
+.footer_body_contain {
+    margin-left: 60px;
+}
+#about .footer_body_ {
+    right: 0;
+    left: 11%;
+}
 .footer_cloumn_title {
     color:  #3d0b3f;
     font-size: 23px;
     font-weight: 500;
     text-align: left;
+    padding-bottom: 30px;
 }
 .footer_cloumn_dec {
     color: rgb(65, 63, 63);
