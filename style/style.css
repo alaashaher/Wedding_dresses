@@ -48,6 +48,7 @@ header {
 }
 .carousel-item img {
     height: 720px;
+    opacity: 0.7;
 }
 .welcome {
     font-size: 25px !important; 
@@ -60,7 +61,7 @@ header {
     margin-left: 20px;
 }
 .header_opation ul li a {
-    color: rgb(83, 35, 131);
+    color: rgb(50, 20, 80);
     text-decoration: underline;
 }
 .header_opation ul li a:hover {
@@ -359,7 +360,7 @@ ul.simplefilter {
 }
 .footer_body_firfox {
     width: 130%;
-    margin-left: 120px;
+    margin-left: 80px;
     margin-top: -280px;
 }
 
